@@ -1,0 +1,192 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-primary fixed-top">
+    <div class="container">
+
+        <a class="navbar-brand" routerLink="/#"><span class="text-warning">Kashmir</span>Trails</a> <button
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
+            class="navbar-toggler" data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse"
+            type="button"><span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" routerLink="/dash">Home</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" routerLink="/contact">contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" routerLink="/destination">Destination</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" routerLink="/about">Team</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" routerLink="/log">ADMIN LOGI</a>
+                </li>
+            </ul>
+            <!-- <div>
+                <button type="button" class="btn btn-success" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal">login</button>
+            </div> -->
+        </div>
+
+    </div>
+
+</nav>
+<div class="carousel-inner">
+    <div class="carousel-item active">
+
+        <img src="../assets/images/huhei.jpg" alt="huhei">
+        <div class="carousel-caption">
+            <h5 text-clour primary> WELCOME TO J&K TREKKING SITE </h5>
+            <p>
+                <strong> The Guide to explore the Kashmir's High Altitude Lakes & Moutain Peaks in Kashmir. It is really
+                    a magical
+                    experience. The Pristine Alpine Lakes & Moutain Peaks and the pleasant surroundings just
+                    make the Trek Experience more exciting. If you are really an adventurous person then you
+                    should definitely go for the Kashmir High Altitude Treks because it’s a treat to the
+                    eyes and workout for whole body and Mind.!</strong>
+            </p>
+            <div>
+                <button type="button" class="btn btn-warning" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal">Regester your Name </button>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<section class="services section-padding" id="services">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="section-header text-center pb-5">
+                    <h2>Our motive </h2>
+                    <p> The idea behind developing the Kashmir Trails web application is to raise awareness about
+                        hiking, trekking and create a database of trails that could be used by other enthusiasts. As
+                        we know Kashmir valley being a tourist destination and with the availability of numerous
+                        treks (Explored and unexplored) attract a huge number of local and foreign trekkers. No
+                        matter if a trekker is local or foreign, he/she needs a trek guide who can guide us on the
+                        various trails. But the problem with hiring a guide is that guides ask for a very high
+                        amount for guiding on some trail. Being a trekker myself, I have faced a lot of problems in
+                        searching the best trail for a trek and moreover being a student my budget couldn’t allow me
+                        to hire a guide. So I thought of coming up with a solution that could help the trekkers and
+                        help them save a huge chunk of their savings which they are going to spend on hiring a
+                        guide. In this modern world where every person is bound to gadgets, everyone needs to take a
+                        break and the best way to refresh one’s mind is to go on some trek. So, we wanted to create
+                        a platform where the trekkers could get the information about the trek and choose which
+                        trail they are taking, while they are planning to go on some trek. The user could visit on
+                        our application search about the trek. This web application will benefit both local and
+                        foreign trekkers who want to trek in Kashmir.></p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-md-12 col-lg-4">
+                <div class="card text-white text-center bg-dark pb-2">
+                    <div class="card-body1">
+                        <i class="bi bi-laptop"></i>
+                        <h3 class="card-title">Tools </h3>
+                        <p class="lead">1: Comfortable Rucksack <br>2:fiter water <br>3:sun protection <br>4:
+                            Lightweight Sleeping Bag </p><button class="btn bg-warning text-dark">Read More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-12 col-lg-4">
+                <div class="card text-white text-center bg-dark pb-2">
+                    <div class="card-body2">
+                        <i class="bi bi-journal"></i>
+                        <h3 class="card-title">Skill</h3>
+                        <p class="lead">1. Planning <br> 2.Weather-forcasting <br>3. Navigation <br>4. River
+                            crossings</p><button class="btn bg-warning text-dark">Read More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-12 col-lg-4">
+                <div class="card text-white text-center bg-dark pb-2">
+                    <div class="card-body3">
+                        <i class="bi bi-intersect"></i>
+                        <h3 class="card-title">Health</h3>
+                        <p class="lead"><br>1:Fist-adis-kit,Toilet paper <br>2:Masqito-replent<br>3Hand
+                            sanitinzer,Soap-bars
+                        </p><button class="btn bg-warning text-dark">Read More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Button trigger modal -->
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Register yourself as Trekker </h1>
+
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+
+                <form [formGroup]="formvalue">
+                    <div class="mb-3">
+                        <label class="form-label">Name</label>
+                        <input type="text" formControlName="name" class="form-control" placeholder="enter  name">
+
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Email</label>
+                        <input type="text" formControlName="Email" class="form-control" placeholder="trekker Email">
+
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Mobile</label>
+                        <input type="text" formControlName="mobile" class="form-control" placeholder="enter no.">
+
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Address</label>
+                        <input type="text" formControlName="address" class="form-control" placeholder="enter address">
+
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Services</label>
+                        <input type="text" formControlName="services" class="form-control" placeholder="take services">
+
+                    </div>
+                    <button type="submit" class="btn btn-success"(click)="addtrek()">Register</button>
+                     </form> 
+                    <a style="color: blue; margin-top: 10px;" routerLink="/log">Already User? Click to Login</a>
+
+            </div>
+        </div>
+    </div>
+</div>
+<!-- </div> -->
+<div class="modal-footer">
+    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+    <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+</div>
+<!-- </div>
+    </div>
+</div> -->
+
+
+<!-- footer starts -->
+<footer class="bg-dark p-2 text-center">
+    <div class="container">
+        <marquee scrolldely="100" style="color: rgb(20, 19, 19)" behavior="alternate" onmousemove=" stop();"
+            onmouseout="start();" direction="Right">
+            <h1 style>WELCOME TO TREKKING SITE OF KASHMIR VALLEY</h1>
+        </marquee>
+        <p class=" text-white">All Right Reserved By @kashmir treking guide shekhzahid</p>
+    </div>
+</footer>
+
+<script src="js/bootstrap.bundle.min.js"></script>

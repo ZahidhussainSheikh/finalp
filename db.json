@@ -1,0 +1,177 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "name": "ghhg",
+      "address": "yguygu",
+      "email": null,
+      "services": "louhuhugyf",
+      "mobile": "tftfyg",
+      "id": 2
+    },
+    {
+      "name": "puoo",
+      "address": "gohal",
+      "email": null,
+      "services": "guide",
+      "mobile": "1232355655",
+      "id": 3
+    },
+    {
+      "name": "dfghj",
+      "address": "DANOW BOGUND QAIMOH KULGAM",
+      "email": "",
+      "mobile": "98521458",
+      "services": "jhgfcvhjk",
+      "id": 4
+    },
+    {
+      "name": "lkjhgfd",
+      "address": "DANOW BOGUND QAIMOH KULGAM",
+      "email": "",
+      "mobile": "6541525",
+      "services": "poiuytre",
+      "id": 5
+    },
+    {
+      "name": "zsxdfghj",
+      "address": "DANOW BOGUND QAIMOH KULGAM",
+      "email": "",
+      "mobile": "9854525",
+      "services": "fghjgh",
+      "id": 6
+    }
+  ],
+  "log": [
+    {
+      "email": "zahid@gmil.com",
+      "password": "95245",
+      "id": 1
+    },
+    {
+      "email": "zahid@gmil.com",
+      "password": "95245",
+      "id": 2
+    },
+    {
+      "email": "zahid@gmil.com",
+      "password": "95245",
+      "id": 3
+    },
+    {
+      "email": "zahid@gmil.com",
+      "password": "95245",
+      "id": 4
+    },
+    {
+      "email": "zahid@gmil.com",
+      "password": "9524554562546",
+      "id": 5
+    },
+    {
+      "email": "zahid@gmil.com",
+      "password": "984852",
+      "id": 6
+    },
+    {
+      "email": "zahid@gmil.com",
+      "password": "984852",
+      "id": 7
+    },
+    {
+      "email": "zahid@gmil.com",
+      "password": "954565452",
+      "id": 8
+    },
+    {
+      "email": "zahid@gmil.com",
+      "password": "954565452",
+      "id": 9
+    },
+    {
+      "email": "zahid@gmil.com",
+      "password": "954565452",
+      "id": 10
+    },
+    {
+      "email": "zahid@gmil.com",
+      "password": "95445296552",
+      "id": 11
+    },
+    {
+      "email": "zahid@gmil.com",
+      "password": "95445296552",
+      "id": 12
+    },
+    {
+      "email": "zahid@gmil.com",
+      "password": "95445296552",
+      "id": 13
+    },
+    {
+      "email": "zahid@gmil.com",
+      "password": "95445296552",
+      "id": 14
+    },
+    {
+      "email": "zahid@gmil.com",
+      "password": "8545254",
+      "id": 15
+    },
+    {
+      "email": "zahid@gmil.com",
+      "password": "8545254",
+      "id": 16
+    },
+    {
+      "email": "zahid@gmil.com",
+      "password": "8545254",
+      "id": 17
+    },
+    {
+      "email": "kkcdkcdkaklkvLEFC",
+      "password": "65498321655",
+      "id": 18
+    },
+    {
+      "email": "kkcdkcdkaklkvLEFC",
+      "password": "65498321655",
+      "id": 19
+    },
+    {
+      "email": "zahid@gmil.com",
+      "password": "5145215",
+      "id": 20
+    }
+  ],
+  "signup": [
+    {
+      "name": "kkcdkcdkaklkvLEFCklqklamcksac",
+      "mobile": 9521452,
+      "email": "kkcdkcdkaklkvLEFCklqklamcksac",
+      "password": "858965",
+      "id": 1
+    },
+    {
+      "name": "zahid@gmil.com65452145",
+      "mobile": 541545841,
+      "email": "zahid@gmil.com",
+      "password": "984865",
+      "id": 2
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
